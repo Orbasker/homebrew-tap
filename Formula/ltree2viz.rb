@@ -1,25 +1,25 @@
 class Ltree2viz < Formula
-  desc "Turn a Postgres ltree table into a Mermaid diagram"
+  desc "Visualize a Postgres ltree hierarchy as a Mermaid diagram or interactive HTML tree"
   homepage "https://github.com/Orbasker/ltree2viz"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.5/ltree2viz-aarch64-apple-darwin.tar.xz"
-      sha256 "fbdc3467191fe42239bcc114108ff6572d28db5be3db9bac1ee7fa1af510f892"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.6/ltree2viz-aarch64-apple-darwin.tar.xz"
+      sha256 "abead3aa13e180a11e82a15c307dfe04a984d424aff7f8e9be8a0558489e22e9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.5/ltree2viz-x86_64-apple-darwin.tar.xz"
-      sha256 "68ba811280723c5b43c14d2b7c1f79bb05ef08060110531da3427cd8b55b96c2"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.6/ltree2viz-x86_64-apple-darwin.tar.xz"
+      sha256 "30c4cc03d3880964197fbe4adfda4dcba485bdff7dd0bf109e3d03479aecfe1c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.5/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "fe8e88b7bd1fd4678f06149ffe8ff79aecd7f6d2cabfcb0cb032e2a6108bd17b"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.6/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "b0fe933b7a45dd9198209f5b56f99d2767e7c02fb0c0b3b4ea5da32598e991b6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.5/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "ca666401a9a4dd6e3631da230708239ef151c6edbe6d0664104996b5baff3f81"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.6/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "1e6f60ee429ed8fa534160cc8f700c644f37a62795423d7b7aa304b3b6e64f28"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
