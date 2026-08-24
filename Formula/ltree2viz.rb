@@ -1,25 +1,25 @@
 class Ltree2viz < Formula
   desc "Visualize a Postgres ltree hierarchy as a Mermaid diagram or interactive HTML tree"
   homepage "https://github.com/Orbasker/ltree2viz"
-  version "0.1.8"
+  version "0.1.9"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.8/ltree2viz-aarch64-apple-darwin.tar.xz"
-      sha256 "a509598f3dff9b86f528f6bb19db3ed5a07a07043286a31672fa4ad4af28c1d2"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.9/ltree2viz-aarch64-apple-darwin.tar.xz"
+      sha256 "b1b93c30f8b74f1410893e4086a88742dec1dd26c49b94164770f98cdd575a16"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.8/ltree2viz-x86_64-apple-darwin.tar.xz"
-      sha256 "572f4c9555f0afc1811fde1761d3a8a0e801fe2d4ffed67978b7cf6c71a51704"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.9/ltree2viz-x86_64-apple-darwin.tar.xz"
+      sha256 "72ba0b2abc6f05735aae3c1e401ba58b620b9eea767db9a52df7e8ee451787cb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.8/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "64a980d6c2c9e9207faf51ad7c277ac46fdd322205d4a92f329899c34d1c5672"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.9/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "e74769384812d70afa75c3838a07c2b8fc9278b607187d5e00a714ccc624d9a0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.8/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "4da72eb982772872b8265ee4ecb1a1c5a146cfd366be06c570b47bdd8ff6530f"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.9/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "d32795aebb6538b77197cc5e42b21566f27c68b5039fcab910f707337109dddd"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
