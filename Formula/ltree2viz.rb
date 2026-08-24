@@ -1,25 +1,25 @@
 class Ltree2viz < Formula
   desc "Turn a Postgres ltree table into a Mermaid diagram"
   homepage "https://github.com/Orbasker/ltree2viz"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.3/ltree2viz-aarch64-apple-darwin.tar.xz"
-      sha256 "c1bd72144a9e0a568aaaedc3d3696e5060adb432f21019e675235fb1d1007d71"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.4/ltree2viz-aarch64-apple-darwin.tar.xz"
+      sha256 "bb707567a8945b30ebad5ffab70620098a6adfc40a8968f9b27c573324ebfd42"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.3/ltree2viz-x86_64-apple-darwin.tar.xz"
-      sha256 "f4f12234ae18bcada01bff479bd6ab430305be90936c5ceae5cfcfddbaa6b7fa"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.4/ltree2viz-x86_64-apple-darwin.tar.xz"
+      sha256 "588e3ded1781f364c5ef76379ffea7de6357eaef8e28f2b0e7c0510daea94372"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.3/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "fa08418766ff5be603c99c1261d1493cc3e51b45cbd91efabceee63179d3ff6c"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.4/ltree2viz-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c31fb0235e457ff7dd8452f077677c3e24b606ca85d059eb09feb3a0c84d911d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.3/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "613f58b6c103361b7d92c6d6112928681f0f6a2fd7bdd78cec99785f13a97b48"
+      url "https://github.com/Orbasker/ltree2viz/releases/download/v0.1.4/ltree2viz-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "5fe7e25a33bfdb430ff109c6292f89b1fdaab59845490beb58c1ecc49b51e381"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
